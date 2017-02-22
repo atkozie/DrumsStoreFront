@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* 
+* custom styles for drumsstorefront theme
+* linked through header.php
+*/
+
+/* custom typography */
+#content p, #content ul, #content ol, #content em, #content strong {
+    font-size:110%;
+}
+#content ul {
+    margin-left:0;
+    list-style-type: none;
+}
+.site-branding {
+    width:auto !important;
+    margin-bottom:0 !important;
+    margin-top:-30px !important;
+}
+.site-search {
+    margin-top:-30px !important;
+    margin-bottom:10px !important;
+}
+.storefront-primary-navigation {/* navbar */
+    line-height:1;
+}
+.main-navigation ul.menu>li>a, .main-navigation ul.nav-menu>li>a {
+    padding:1em .7em !important;
+    font-size:.9em !important;
+}
+.site-header-cart .cart-contents {
+    padding:1em 0 !important;
+    font-size:.9em !important;
+}
+.site-header {
+    margin-bottom:015px !important;
+}
+.entry-title {
+    margin-bottom:0 !important;
+}
+.woocommerce-breadcrumb {
+    margin-top:-15px;
+    margin-bottom:15px !important;
+    line-height:1 !important;
+}
+
+/* child page excerpts on page.php */
+.child-page {
+    margin-left:0;
+    list-style-type: none;
+}
+
+/* custom footer */
+.footer-left {
+    height:70px;
+    width:50%;
+    float:left;   
+}
+.site-info {
+    margin-left:5%;
+}
+.footer-right {
+    height:70px;
+    width:50%;
+    float:right;
+}
+.footer-right ul {
+    text-decoration: none;
+}
+.footer-right img {
+    float:right;
+    height:30px;
+    margin:40px 15px;
+}
+.footer-right img:hover {
+    opacity:.6;
+}
+
+/* widgets */
+.widget-area {
+    font-size:100%;
+}
+.textwidget input {
+    width:99%;
+    margin-right:1%;
+}
+
+/* Design for Mobile
+-------------------------------------------------------------- */
+@media screen and (max-width: 767px){
+
+    .site-info {
+        margin-top:-30px;
+    }
+    .footer-right img {
+        margin-top:10px;
+    }
+    #content p, #content ul, #content ol, #content em, #content strong {
+    font-size:130%;
+    }
+}
